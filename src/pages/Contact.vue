@@ -30,7 +30,7 @@
       <p class="text-gray-600 text-xs italic">**Please DO NOT share sensitive information in this web form**</p>
     </div>
   </div>
-  <button class="flex-1 bg-red-700 px-3 py-2 w-1/2 text-white rounded outline-none">
+  <button class="flex-1 bg-red-700 py-3 py-2 w-1/2 text-white rounded outline-none">
             Submit
   </button>
 </form>
