@@ -1,12 +1,14 @@
 <template>
   <div class="overflow-x-hidden">
     <div class="h-2 bg-red-700 w-full"></div>
-
     <div class="max-w-4xl mx-auto muli">
-
-        <!--navbar-->
+      <!--navbar-->
         <Navbar/>
-
+    </div>
+    <div class="max-w-6xl mx-auto muli">
+      <Call/>
+    </div>
+    <div class="max-w-4xl mx-auto muli">
         <!--body-->
         <div class="p-4">
           <transition name="fade" appear>
@@ -22,10 +24,12 @@
 
 <script>
 import Navbar from '@/components/Navbar'
+import Call from '@/components/Call'
 export default {
   name:'Layout',
   components:{
-    Navbar
+    Navbar,
+    Call
   }
 }
 </script>
