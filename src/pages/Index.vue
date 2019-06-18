@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <!--description-->
-    <div class="flex flex-wrap-reverse md:mt-24 bg-white relative items-center">
+    <div class="flex flex-wrap-reverse md:mt-6 bg-white relative items-center">
       <div class="w-full sm:w-full md:w-3/5">
         <div>
           <h2 class="text-3xl leading-tight text-gray-900 font-bold">
@@ -71,7 +71,7 @@
     </div>
 
     <!--description-->
-    <div class="flex flex-wrap-reverse md:mt-24 bg-white relative items-center">
+    <div class="flex flex-wrap-reverse md:mt-12 bg-white relative items-center">
       <div class="w-full sm:w-full md:w-2/5 px-12">
         <g-image alt="ideas & checklist" src="~/assets/hangout.svg"/>
       </div>
@@ -81,11 +81,11 @@
             74% of Americans suffer from speech anxiety, don't be one of them.
           </h2>
           <p class="text-md text-gray-700 mt-4">
-            Toastmasters gives you the opportunity to practice your public speaking skills 
-            infront of a small group of people, that wants to help you grow in a safe environment where feedback is beneficial and judgement is left at the door.
+            Toast Masters gives you the opportunity to practice your public speaking skills 
+            infront of a small group of people, that want to help you grow in a safe environment where feedback is beneficial and judgement is left at the door.
           </p>
           <p class="text-md text-gray-700 mt-2 mb-4">
-            Toastmasters help you...
+            Toast Masters help you...
           </p>
         </div>
         <div class="flex flex-col text-gray-800 font-semibold">
