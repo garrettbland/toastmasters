@@ -2,7 +2,7 @@
 	<div class="flex flex-wrap justify-between p-4">
         <!--title-->
         <div>
-            Toast Masters
+            <g-link to="/" class="hover:underline">Toast Masters</g-link>
         </div>
         <!--menu links-->
         <div>
@@ -10,13 +10,13 @@
             <div class="hidden sm:hidden md:block">
                 <div class="flex flex-row">
                     <div class="px-4">
-                        Home
+                        <g-link to="/" class="hover:underline">Home</g-link>
                     </div>
                      <div class="px-4">
-                        Login
+                        <g-link to="/login" class="hover:underline">Login</g-link>
                     </div>
                      <div class="px-4">
-                        Contact
+                        <g-link to="/contact" class="hover:underline">Contact</g-link>
                     </div>
                 </div>
             </div>
