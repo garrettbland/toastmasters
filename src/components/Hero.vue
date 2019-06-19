@@ -1,14 +1,14 @@
 <template>
     <!--call to action-->
-    <div class="flex flex-wrap-reverse md:mt-8 bg-white relative items-center">
+    <div class="flex flex-wrap-reverse lg:mt-8 bg-white relative items-center">
       <div class="md:w-2/5 pl-8 items-start inline-block">
-        <p class="text-sm uppercase text-gray-500 font-semibold">
+        <p class="text-sm uppercase text-gray-500 font-semibold hidden md:block">
           Toast Masters Hays, KS
         </p>
-        <h1 class="text-4xl font-bold text-gray-900">
+        <h1 class="text-4xl font-bold text-gray-900 hidden md:block">
           Practice Public Speaking
         </h1>
-        <p class="text-gray-700 pr-8 text-lg">
+        <p class="text-gray-700 pr-8 text-lg hidden md:block">
           Practice your public speaking with like minded speakers. Build confidence in the 
           work place, socially, and create a better you.
         </p>
@@ -22,7 +22,7 @@
           </button>
         </div>
       </div>
-      <div class="md:w-3/5 pr-8 items-end inline-block pl-8 pb-8">
+      <div class="md:w-3/5 pr-8 items-end inline-block pl-8 pb-8 hidden md:block">
         <g-image alt="Person public speaking" src="~/assets/conference_speaker.svg"/>
       </div>
     </div>
@@ -31,7 +31,7 @@
 
 <script>
 export default {
-	name:'Call',
+	name:'Hero',
 	data(){
 		return {
 			display:false

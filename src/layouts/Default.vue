@@ -6,7 +6,7 @@
         <Navbar/>
     </div>
     <div class="max-w-6xl mx-auto muli">
-      <Call/>
+      <Hero/>
     </div>
     <div class="max-w-4xl mx-auto muli">
         <!--body-->
@@ -26,13 +26,13 @@
 
 <script>
 import Navbar from '@/components/Navbar'
-import Call from '@/components/Call'
+import Hero from '@/components/Hero'
 import Footer from '@/components/Footer'
 export default {
   name:'Layout',
   components:{
     Navbar,
-    Call,
+    Hero,
     Footer
   }
 }
