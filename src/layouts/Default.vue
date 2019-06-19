@@ -5,8 +5,8 @@
       <!--navbar-->
         <Navbar/>
     </div>
-    <div class="max-w-6xl mx-auto" v-if="isHome">
-      <Call/>
+    <div class="max-w-6xl mx-auto muli">
+      <Hero/>
     </div>
     <div class="max-w-4xl mx-auto">
         <!--body-->
@@ -26,13 +26,13 @@
 
 <script>
 import Navbar from '@/components/Navbar'
-import Call from '@/components/Call'
+import Hero from '@/components/Hero'
 import Footer from '@/components/Footer'
 export default {
   name:'Layout',
   components:{
     Navbar,
-    Call,
+    Hero,
     Footer
   },
   computed:{
