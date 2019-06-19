@@ -1,14 +1,14 @@
 <template>
-  <div class="overflow-x-hidden">
+  <div class="overflow-x-hidden muli">
     <div class="h-2 bg-red-700 w-full"></div>
-    <div class="max-w-4xl mx-auto muli">
+    <div class="max-w-4xl mx-auto">
       <!--navbar-->
         <Navbar/>
     </div>
-    <div class="max-w-6xl mx-auto muli">
+    <div class="max-w-6xl mx-auto" v-if="isHome">
       <Call/>
     </div>
-    <div class="max-w-4xl mx-auto muli">
+    <div class="max-w-4xl mx-auto">
         <!--body-->
         <div class="p-4">
           <transition name="fade" appear>
@@ -30,6 +30,17 @@ export default {
   components:{
     Navbar,
     Call
+  },
+  computed:{
+
+    // Checks if route is on home page. Returns boolean
+    isHome(){
+      if(this.$router.currentRoute.name === 'home'){
+        return true
+      }else{
+        return false
+      }
+    }
   }
 }
 </script>

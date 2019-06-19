@@ -13,13 +13,10 @@
                         <g-link to="/" class="hover:underline">Home</g-link>
                     </div>
                      <div class="px-4">
-                        <g-link to="/login" class="hover:underline">Login</g-link>
-                    </div>
-                     <div class="px-4">
                         <g-link to="/contact" class="hover:underline">Contact</g-link>
                     </div>
                     <div class="px-4">
-                        <g-link to="/Schedule" class="hover:underline">Schedule</g-link>
+                        <g-link to="/schedule" class="hover:underline">Schedule</g-link>
                     </div>
                 </div>
             </div>

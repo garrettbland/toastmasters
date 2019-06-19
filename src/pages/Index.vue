@@ -1,5 +1,6 @@
 <template>
   <Layout>
+
     <!--description-->
     <div class="flex flex-wrap-reverse md:mt-6 bg-white relative items-center">
       <div class="w-full sm:w-full md:w-3/5">
@@ -139,3 +140,12 @@
     </footer>
   </Layout>
 </template>
+
+<script>
+export default {
+  name:'Index',
+  metaInfo: {
+    title: 'Home'
+  }
+}
+</script>

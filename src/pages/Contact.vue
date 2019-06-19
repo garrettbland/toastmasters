@@ -2,8 +2,15 @@
   <Layout>
     <div class="flex flex-wrap">
       <div class="w-2/5 p-3">
-        <h1 class="text-sm uppercase text-gray-500 font-semibold">About us</h1>
-        <p class="">Toast Masters in Hays, KS provides developmental tools to overcome the physiological triggers that we all encounter from time to time when giving public presentations. We utilize constructive feedback, friendly environment and like minded professionals to help you build the confidence to give a great presentation. Please feel free to contact us with any questions, concerns or other input you may have.</p>
+        <p class="text-sm uppercase text-gray-500 font-semibold">
+          Join Today
+        </p>
+        <h1 class="text-4xl font-bold text-gray-900">
+          Contact
+        </h1>
+        <p class="text-gray-700 leading-regular">Toast Masters in Hays, KS provides developmental tools to overcome the physiological triggers that we all encounter from time to time when giving public presentations. </p>
+
+          <p class="text-gray-700 leading-regular pt-4">We utilize constructive feedback, friendly environment and like minded professionals to help you build the confidence to give a great presentation. Please feel free to contact us with any questions, concerns or other input you may have.</p>
       </div>
       <div class="w-3/5 p-3">
         <form class="w-full max-w-lg">
