@@ -17,7 +17,9 @@
             </main>
           </transition>
         </div>
-
+    </div>
+    <div class="max-w-6xl mx-auto muli">
+      <Footer/>
     </div>
   </div>
 </template>
@@ -25,11 +27,13 @@
 <script>
 import Navbar from '@/components/Navbar'
 import Call from '@/components/Call'
+import Footer from '@/components/Footer'
 export default {
   name:'Layout',
   components:{
     Navbar,
-    Call
+    Call,
+    Footer
   },
   computed:{
 
