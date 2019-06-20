@@ -8648,11 +8648,6 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.0.tgz#bd76d6a23323e2ca8ffa12028dc04559c75f9019"
   integrity sha512-iq+S7vZJE60yejDYM0ek6zg308+UZsdtPExWP9VZoCFCz1zkJoXFnAX7aZfd/ZwrkidzdUZL0C/ryW+JwAiIGw==
 
-vue-google-firebase@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/vue-google-firebase/-/vue-google-firebase-0.0.3.tgz#a7d751728e3573a814e64f191cf5fbe964bb3818"
-  integrity sha512-/7PcbP4vmQWh1pQdvcW3saTIDZuG/yMi/AG32yatDmFByeJ2sSgKGtYPPPcp847JgtT8EojjlNLeLVZBjXvlZQ==
-
 vue-hot-reload-api@^2.3.0:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.3.tgz#2756f46cb3258054c5f4723de8ae7e87302a1ccf"

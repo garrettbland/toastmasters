@@ -2,7 +2,6 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 import './tailwind.css'
 import DefaultLayout from '~/layouts/Default.vue'
-import VueGoogleFirebase from 'vue-google-firebase'
 let config = {
   apiKey: "AIzaSyB6YveWu381zxZJ2qg3y2VVWNmrC34SK0M",
   authDomain: "toast-masters.firebaseapp.com",
@@ -15,5 +14,4 @@ let config = {
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
-  Vue.use(VueGoogleFirebase,config)
 }
