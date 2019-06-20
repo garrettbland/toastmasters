@@ -16,7 +16,7 @@
           Sign up today! Come join us in a meeting without signing up to see if its right for you.
         </p>
         <form action="https://formspree.io/gmorganbland@gmail.com" method="POST" class="flex w-full mt-2 pr-8 pb-8" v-if="successful === false">
-          <input v-model="email" class="appearance-none block w-2/3 bg-gray-200 text-gray-700 rounded py-3 px-4 mr-2 leading-tight focus:border-blue-400 border focus:outline-none focus:bg-white" id="grid-first-name" type="email" placeholder="speaker@example.com">
+          <input name="email" v-model="email" class="appearance-none block w-2/3 bg-gray-200 text-gray-700 rounded py-3 px-4 mr-2 leading-tight focus:border-blue-400 border focus:outline-none focus:bg-white" id="grid-first-name" type="email" placeholder="speaker@example.com">
             <button type="submit" @prevent.default @click="loading === false ? submit() : null" v-bind:class="emailStatus" class="flex flex-1 items-center justify-center text-center text-white rounded bg-red-700 focus:outline-none">
               <div v-if="loading === false" class="w-5 h-5 mx-2">
                 <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-reactid="261"><path d="M20 6L9 17 4 12"/></svg>
