@@ -1,16 +1,16 @@
 <template>
   <div class="overflow-x-hidden muli">
     <div class="h-2 bg-red-700 w-full"></div>
-    <div class="max-w-4xl mx-auto">
+    <div class="max-w-5xl mx-auto">
       <!--navbar-->
         <Navbar/>
     </div>
-    <div class="max-w-6xl mx-auto muli">
+    <div class="mx-auto" v-if="isHome">
       <Hero/>
     </div>
-    <div class="max-w-4xl mx-auto">
+    <div>
         <!--body-->
-        <div class="p-4">
+        <div>
           <transition name="fade" appear>
             <main> <!-- a wrapper for slot is needed -->
               <slot /> <!-- the content -->
@@ -18,7 +18,7 @@
           </transition>
         </div>
     </div>
-    <div class="max-w-6xl mx-auto muli">
+    <div class="max-w-6xl mx-auto">
       <Footer/>
     </div>
   </div>
