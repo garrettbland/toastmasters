@@ -5,7 +5,8 @@
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
-    "deploy": "gridsome build && firebase deploy"
+    "deploy": "gridsome build && firebase deploy",
+    "deploy-netlify": "gridsome build && firebase deploy"
   },
   "dependencies": {
     "firebase": "^6.2.0",
